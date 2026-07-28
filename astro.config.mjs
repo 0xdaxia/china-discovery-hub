@@ -7,7 +7,11 @@ export default defineConfig({
   site: 'https://chinahub.cc',
   integrations: [
     tailwind({ applyBaseStyles: false }),
-    sitemap(),
+    sitemap({
+      // Keep noindex pages (tag/search) out of the sitemap to avoid
+      // conflicting signals in Google Search Console.
+      filter: (page) => !page.includes('/tag/') && !page.includes('/search'),
+    }),
     mdx(),
   ],
   i18n: {

@@ -24,7 +24,7 @@ I'm Chinese, and I live here. Over the past few years, I've watched about two do
 
 All six are 100% avoidable with about an hour of prep before you fly.
 
-This is the list I now send people the week before they board. It assumes you're a regular traveler from a country that gets [visa-free or transit-free entry](/category/travel) (which, as of 2026, includes most of Europe, most of East Asia, and more of the Americas than you think — [check your embassy's page](https://bj.china-embassy.gov.cn/eng/lsfw/zj/); the list keeps growing). It assumes you'll stay 1–4 weeks, mostly in tier-one cities, maybe one short flight. It does NOT assume you speak Mandarin.
+This is the list I now send people the week before they board. It assumes you're a regular traveler from a country that gets [visa-free or transit-free entry](/category/travel/) (which, as of 2026, includes most of Europe, most of East Asia, and more of the Americas than you think — [check your embassy's page](https://bj.china-embassy.gov.cn/eng/lsfw/zj/); the list keeps growing). It assumes you'll stay 1–4 weeks, mostly in tier-one cities, maybe one short flight. It does NOT assume you speak Mandarin.
 
 ## The phone, in the order it has to happen
 
@@ -107,4 +107,4 @@ We're glad you're coming. Just set up the phone first.
 
 ---
 
-_This guide focuses on prep — for what to do once you're here, check out the [Travel](/category/travel), [Food](/category/food), and [Apps](/category/apps) sections. Found something out of date, or know a setup trick I missed? [Tell me](/submit) — 2026 China moves fast, so this guide will need updates more than once a year._
+_This guide focuses on prep — for what to do once you're here, check out the [Travel](/category/travel/), [Food](/category/food/), and [Apps](/category/apps/) sections. Found something out of date, or know a setup trick I missed? [Tell me](/submit/) — 2026 China moves fast, so this guide will need updates more than once a year._

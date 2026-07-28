@@ -41,7 +41,7 @@ const jsonLd = [
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${SITE}/search?q={search_term_string}`,
+        urlTemplate: `${SITE}/search/?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -110,7 +110,7 @@ const jsonLd = [
               Start Exploring
               <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
             </a>
-            <a href="/submit" class="btn-ghost">Submit a Resource</a>
+            <a href="/submit/" class="btn-ghost">Submit a Resource</a>
           </div>
 
           <dl class="mt-12 grid grid-cols-3 gap-6 max-w-md">
@@ -191,7 +191,7 @@ const jsonLd = [
             <p class="text-xs font-semibold uppercase tracking-[0.18em] text-accent">02 — Editors' picks</p>
             <h2 class="mt-2 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Featured this week.</h2>
           </div>
-          <a href="/featured" class="link-underline text-sm font-medium">View all featured →</a>
+          <a href="/featured/" class="link-underline text-sm font-medium">View all featured →</a>
         </div>
 
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -209,7 +209,7 @@ const jsonLd = [
       <p class="text-xs font-semibold uppercase tracking-[0.18em] text-accent">03 — Trending tags</p>
       <div class="mt-5 flex flex-wrap gap-2">
         {trendingTags.map((tag) => (
-          <a href={`/tag/${tag}`} class="chip text-sm">#{tag}</a>
+          <a href={`/tag/${tag}/`} class="chip text-sm">#{tag}</a>
         ))}
       </div>
     </div>
@@ -253,7 +253,7 @@ const jsonLd = [
             China Discovery Hub is a single, calm doorway: <em>here are the
             resources I'd actually hand a curious friend.</em>
           </p>
-          <a href="/about" class="link-underline mt-5 inline-block text-sm font-medium">Read more about us →</a>
+          <a href="/about/" class="link-underline mt-5 inline-block text-sm font-medium">Read more about us →</a>
         </div>
 
         <div class="rounded-3xl border border-ink/[0.08] bg-paper p-8 dark:border-paper/10 dark:bg-paper-panel-dark/60">
@@ -271,7 +271,7 @@ const jsonLd = [
             <li class="flex items-start gap-2"><span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-accent shrink-0"></span> Personal editorial review</li>
             <li class="flex items-start gap-2"><span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-accent shrink-0"></span> Source public on GitHub</li>
           </ul>
-          <a href="/submit" class="btn-primary mt-6">Suggest a resource</a>
+          <a href="/submit/" class="btn-primary mt-6">Suggest a resource</a>
         </div>
       </div>
     </div>

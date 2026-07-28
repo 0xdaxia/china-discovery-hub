@@ -13,8 +13,8 @@ const SITE = 'https://chinahub.cc';
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  '@id': `${SITE}/featured`,
-  url: `${SITE}/featured`,
+  '@id': `${SITE}/featured/`,
+  url: `${SITE}/featured/`,
   name: 'Featured — China Discovery Hub',
   description:
     'Editor-written essays and hand-picked resources currently on our recommended list.',
@@ -58,7 +58,7 @@ const jsonLd = {
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {stories.map((story) => (
             <a
-              href={`/featured/${story.slug}`}
+              href={`/featured/${story.slug}/`}
               class="group flex flex-col rounded-2xl border border-ink/[0.08] bg-paper p-6 shadow-card transition hover:-translate-y-0.5 hover:shadow-card-hover dark:border-paper/10 dark:bg-paper-panel-dark/60"
             >
               <p class="text-xs font-semibold uppercase tracking-[0.16em] text-accent">

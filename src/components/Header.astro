@@ -3,9 +3,9 @@ import ThemeToggle from './ThemeToggle.astro';
 
 const navLinks = [
   { href: '/#categories', label: 'Browse' },
-  { href: '/featured', label: 'Featured' },
-  { href: '/submit', label: 'Submit' },
-  { href: '/about', label: 'About' },
+  { href: '/featured/', label: 'Featured' },
+  { href: '/submit/', label: 'Submit' },
+  { href: '/about/', label: 'About' },
 ];
 
 const path = Astro.url.pathname;
@@ -37,7 +37,7 @@ const path = Astro.url.pathname;
 
     <div class="flex items-center gap-2">
       <a
-        href="/search"
+        href="/search/"
         aria-label="Search"
         class="hidden sm:inline-flex h-9 w-9 items-center justify-center rounded-full border border-ink/10 text-ink/70 transition-colors hover:border-accent/50 hover:text-accent dark:border-paper/15 dark:text-paper/70"
       >
@@ -48,7 +48,7 @@ const path = Astro.url.pathname;
       </a>
       <ThemeToggle />
       <a
-        href="/submit"
+        href="/submit/"
         class="hidden lg:inline-flex items-center rounded-full bg-ink px-4 py-2 text-sm font-medium text-paper transition-colors hover:bg-accent dark:bg-paper dark:text-ink dark:hover:bg-accent dark:hover:text-paper"
       >
         Submit
